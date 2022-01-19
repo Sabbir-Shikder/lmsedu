@@ -1,0 +1,1645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMSedu | Sabbir Shikder</title>
+    <link rel="icon" href="images/ux.png">
+    <!-- jquery plugins css  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/meanmenu.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/lity.min.css">
+    <link rel="stylesheet" href="css/sticky-header.css">
+    <link rel="stylesheet" href="css/offcanvas-mobile-menu.css">
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- customizable css link  -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <!--=======================================
+    css preloader
+    ==========================================-->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+                <div class="object" id="object_four"></div>
+                <div class="object" id="object_five"></div>
+                <div class="object" id="object_six"></div>
+                <div class="object" id="object_seven"></div>
+                <div class="object" id="object_eight"></div>
+                <div class="object" id="object_big"></div>
+            </div>
+        </div>
+    </div>
+    <!--=======================================
+    header area starting
+    ==========================================-->
+    <header>
+        <div class="header-area header-sticky bg-ab py-35">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- this is main header logo  -->
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="header-logo">
+                            <a href="index.html">
+                                <img src="images/logo.png" class="img-fluid" alt="header-logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-lg-block d-none">
+                        <!-- main menu area  -->
+                        <nav class="main-menu">
+                            <ul>
+                                <li class="d-inline-block"><a href="#" class="tc-ff ffo fs-16 f-600 pr-25">Home</a></li>
+                                <li class="d-inline-block"><a href="#" class="tc-ff ffo fs-16 f-600 pr-25">Courses</a>
+                                </li>
+                                <li class="d-inline-block"><a href="#" class="tc-ff ffo fs-16 f-600 pr-25">Pages</a>
+                                </li>
+                                <li class="d-inline-block"><a href="#" class="tc-ff ffo fs-16 f-600">Blogs</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-5 text-end d-lg-block d-none">
+                        <div class="search-cart-btn">
+                            <!-- search and login-register area  -->
+                            <ul>
+                                <li class="d-inline-block pr-35"><a href="#"><i class="fas fa-search tc-ff fs-16"></i></a></li>
+                                <li class="d-inline-block pr-35"><a href="#"><i class="fas fa-cart-arrow-down tc-ff fs-16"></i></a></li>
+                                <li class="login&register d-inline-block">
+                                    <a href="index.html">
+                                        <div class="log-reg-btn d-flex">
+                                            <div class="register d-flex d-inline-block">
+                                                <i class="fas fa-user tc-ff fs-16 pr-10"></i>
+                                                <h3 class="tc-ff fs-16 f-600 ffo">Register /</h3>
+                                            </div>
+                                            <div class="register d-flex d-inline-block pl-10">
+                                                <i class="fas fa-sign-in-alt tc-ff fs-16 pr-10"></i>
+                                                <h3 class="tc-ff fs-16 f-600 ffo">Login</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-6 align-items-center d-lg-none d-block text-end">
+                        <div class="mobile-menu">
+                            <button class="menu-slide-active" id="trigger"><i class="fas fa-bars tc-ff fs-24"></i></button>
+                            <div class="for-slide-menu" id="main"></div>
+                            <div class="slide-menu" id="offcanvas">
+                                <nav>
+                                    <ul>
+                                        <li><a href="#" class="uppercase">home</a></li>
+                                        <li><a href="#" class="uppercase">courses</a></li>
+                                        <li><a href="#" class="uppercase">pages</a></li>
+                                        <li><a href="#" class="uppercase">blogs</a></li>
+                                    </ul>
+                                </nav>
+                                <div class="cart d-flex justify-content-center">
+                                    <a href="index.html" class="d-flex">
+                                        <i class="fas fa-cart-arrow-down tc-ff fs-16 pr-10"></i>
+                                        <h3 class="fs-18 tc-ff ffo">Cart</h3>
+                                    </a>
+                                </div>
+                                <div class="log-reg">
+                                    <a href="index.html">
+                                        <div class="log-reg-btn d-flex justify-content-center">
+                                            <div class="register d-flex d-inline-block">
+                                                <i class="fas fa-user tc-ff fs-16 pr-10"></i>
+                                                <h3 class="tc-ff fs-16 f-600 ffo">Register /</h3>
+                                            </div>
+                                            <div class="register d-flex d-inline-block pl-10">
+                                                <i class="fas fa-sign-in-alt tc-ff fs-16 pr-10"></i>
+                                                <h3 class="tc-ff fs-16 f-600 ffo">Login</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="serch-for-mobile">
+                                    <form action="#">
+                                        <input type="text">
+                                        <button type="submit">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--=======================================
+    header area ending
+    ===========================================-->
+
+    <main>
+        <!--=======================================
+        banner area starting
+        ===========================================-->
+        <section class="banner-area">
+            <div class="container">
+                <div class="banner-cont">
+                    <h1 class="f-700 fs-60 ffo tc-ff">Learn Excilence in Teaching.</h1>
+                    <p class="f-400 fs-24 ffo tc-ff pt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    <div class="banner-btn pt-40">
+                        <a href="#" class="fs-16 ffo f-600 tc-ff">explore courses</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=======================================
+        banner area ending
+        ===========================================-->
+        <!--=======================================
+        course-of-category area starting
+        ===========================================-->
+        <section class="cat-of-cour-area pt-80 pb-85 bg-f4">
+            <div class="cat-section-heading pb-95">
+                <div class="section-main-heading text-center pb-20">
+                    <h2 class="fs-36 tc-00 f-700 ffo">Course Categories</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-6 text-center padding-15">
+                        <!-- single-course-box 1 -->
+                        <div class="single-course-cate-box text-center">
+                            <div class="single-course-cate-line1"></div>
+                            <div class="single-course-cate-line2"></div>
+                            <div class="single-course-cate-line3"></div>
+                            <div class="single-course-cate-line4"></div>
+                            <div class="icon-box pb-05">
+                                <i class="fas fa-code fs-36 tc-ab"></i>
+                            </div>
+                            <div class="course-sub">
+                                <h3 class="fs-18 tc-33 f-400 ffo">Developement</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-6 text-center padding-15">
+                        <!-- single-course-box 2 -->
+                        <div class="single-course-cate-box text-center">
+                            <div class="single-course-cate-line1"></div>
+                            <div class="single-course-cate-line2"></div>
+                            <div class="single-course-cate-line3"></div>
+                            <div class="single-course-cate-line4"></div>
+                            <div class="icon-box pb-05">
+                                <i class="fas fa-desktop fs-36 tc-ab"></i>
+                            </div>
+                            <div class="course-sub">
+                                <h3 class="fs-18 tc-33 f-400 ffo">Software</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-6 text-center padding-15">
+                        <!-- single-course-box 3 -->
+                        <div class="single-course-cate-box text-center">
+                            <div class="single-course-cate-line1"></div>
+                            <div class="single-course-cate-line2"></div>
+                            <div class="single-course-cate-line3"></div>
+                            <div class="single-course-cate-line4"></div>
+                            <div class="icon-box pb-05">
+                                <i class="fas fa-paint-brush fs-36 tc-ab"></i>
+                            </div>
+                            <div class="course-sub">
+                                <h3 class="fs-18 tc-33 f-400 ffo">Design</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-6 text-center padding-15">
+                        <!-- single-course-box 4 -->
+                        <div class="single-course-cate-box text-center">
+                            <div class="single-course-cate-line1"></div>
+                            <div class="single-course-cate-line2"></div>
+                            <div class="single-course-cate-line3"></div>
+                            <div class="single-course-cate-line4"></div>
+                            <div class="icon-box pb-05">
+                                <i class="fas fa-briefcase fs-36 tc-ab"></i>
+                            </div>
+                            <div class="course-sub">
+                                <h3 class="fs-18 tc-33 f-400 ffo">Business</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-6 text-center padding-15">
+                        <!-- single-course-box 5 -->
+                        <div class="single-course-cate-box text-center">
+                            <div class="single-course-cate-line1"></div>
+                            <div class="single-course-cate-line2"></div>
+                            <div class="single-course-cate-line3"></div>
+                            <div class="single-course-cate-line4"></div>
+                            <div class="icon-box pb-05">
+                                <i class="fas fa-leaf fs-36 tc-ab"></i>
+                            </div>
+                            <div class="course-sub">
+                                <h3 class="fs-18 tc-33 f-400 ffo">Lifestyle</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-6 text-center padding-15">
+                        <!-- single-course-box 6 -->
+                        <div class="single-course-cate-box text-center">
+                            <div class="single-course-cate-line1"></div>
+                            <div class="single-course-cate-line2"></div>
+                            <div class="single-course-cate-line3"></div>
+                            <div class="single-course-cate-line4"></div>
+                            <div class="icon-box pb-05">
+                                <i class="fas fa-camera fs-36 tc-ab"></i>
+                            </div>
+                            <div class="course-sub">
+                                <h3 class="fs-18 tc-33 f-400 ffo">Photography</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-6 text-center padding-15">
+                        <!-- single-course-box 7 -->
+                        <div class="single-course-cate-box text-center">
+                            <div class="single-course-cate-line1"></div>
+                            <div class="single-course-cate-line2"></div>
+                            <div class="single-course-cate-line3"></div>
+                            <div class="single-course-cate-line4"></div>
+                            <div class="icon-box pb-05">
+                                <i class="fab fa-joomla fs-36 tc-ab"></i>
+                            </div>
+                            <div class="course-sub">
+                                <h3 class="fs-18 tc-33 f-400 ffo">Joomla</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-6 text-center padding-15">
+                        <!-- single-course-box 8 -->
+                        <div class="single-course-cate-box text-center">
+                            <div class="single-course-cate-line1"></div>
+                            <div class="single-course-cate-line2"></div>
+                            <div class="single-course-cate-line3"></div>
+                            <div class="single-course-cate-line4"></div>
+                            <div class="icon-box pb-05">
+                                <i class="fab fa-wordpress fs-36 tc-ab"></i>
+                            </div>
+                            <div class="course-sub">
+                                <h3 class="fs-18 tc-33 f-400 ffo">Wordpress</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-6 text-center padding-15">
+                        <!-- single-course-box 9 -->
+                        <div class="single-course-cate-box text-center">
+                            <div class="single-course-cate-line1"></div>
+                            <div class="single-course-cate-line2"></div>
+                            <div class="single-course-cate-line3"></div>
+                            <div class="single-course-cate-line4"></div>
+                            <div class="icon-box pb-05">
+                                <i class="fas fa-language fs-36 tc-ab"></i>
+                            </div>
+                            <div class="course-sub">
+                                <h3 class="fs-18 tc-33 f-400 ffo">Language</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-6 text-center padding-15">
+                        <!-- single-course-box 10 -->
+                        <div class="single-course-cate-box text-center">
+                            <div class="single-course-cate-line1"></div>
+                            <div class="single-course-cate-line2"></div>
+                            <div class="single-course-cate-line3"></div>
+                            <div class="single-course-cate-line4"></div>
+                            <div class="icon-box pb-05">
+                                <i class="fas fa-music fs-36 tc-ab"></i>
+                            </div>
+                            <div class="course-sub">
+                                <h3 class="fs-18 tc-33 f-400 ffo">Music</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-6 text-center padding-15">
+                        <!-- single-course-box 11 -->
+                        <div class="single-course-cate-box text-center">
+                            <div class="single-course-cate-line1"></div>
+                            <div class="single-course-cate-line2"></div>
+                            <div class="single-course-cate-line3"></div>
+                            <div class="single-course-cate-line4"></div>
+                            <div class="icon-box pb-05">
+                                <i class="far fa-image fs-36 tc-ab"></i>
+                            </div>
+                            <div class="course-sub">
+                                <h3 class="fs-18 tc-33 f-400 ffo">Photoshop</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-6 text-center padding-15">
+                        <!-- single-course-box 12 -->
+                        <div class="single-course-cate-box text-center">
+                            <div class="single-course-cate-line1"></div>
+                            <div class="single-course-cate-line2"></div>
+                            <div class="single-course-cate-line3"></div>
+                            <div class="single-course-cate-line4"></div>
+                            <div class="icon-box pb-05">
+                                <i class="fas fa-heartbeat fs-36 tc-ab"></i>
+                            </div>
+                            <div class="course-sub">
+                                <h3 class="fs-18 tc-33 f-400 ffo">Medicine</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=======================================
+        course-of-category area ending
+        ===========================================-->
+        <!--=======================================
+        top_courses area starting
+        ===========================================-->
+        <section class="top-course-area pt-100 pb-75">
+            <div class="container">
+                <div class="top-course-heading-area d-flex justify-content-between align-items-center pb-70">
+                    <div class="section-heading">
+                        <div class="bold-heading pb-15">
+                            <h2 class="tc-00 f-700 fs-30">Top Courses</h2>
+                        </div>
+                        <div class="sec-heading-para">
+                            <p class="tc-66 f-400 fs-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                                biben dumvenenatis
+                                mollis.</p>
+                        </div>
+                    </div>
+                    <div class="top-course-heading-btn">
+                        <a href="#" class="fs-16 ffo f-600">view more</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 padding-25">
+                        <!-- single course box 1 -->
+                        <div class="single-course-box w-100 pb-30">
+                            <div class="course-img fix position-relative">
+                                <img src="images/course-img1.png" class="img-fluid w-100" alt="">
+                                <div class="hover-on-img">
+                                    <i class="fas fa-plus tc-ff fs-64"></i>
+                                </div>
+                            </div>
+                            <div class="single-course-content px-30">
+                                <div class="course-heading pt-30">
+                                    <h3 class="fs-18 tc-00 f-700 ">Conceptual Art, Photography and Wild Life</h3>
+                                </div>
+                                <div class="course-para pt-20">
+                                    <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                        suscipit </p>
+                                </div>
+                                <div class="course-pricing pt-15">
+                                    <h2 class="tc-ab fs-24 f-700">$159.00</h2>
+                                </div>
+                                <div class="course-rating d-flex  align-items-center pt-10">
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="far fa-star tc-ed fs-13"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 padding-25">
+                        <!-- single course box 2 -->
+                        <div class="single-course-box w-100 pb-30">
+                            <div class="course-img fix position-relative">
+                                <img src="images/course-img2.png" class="img-fluid w-100" alt="">
+                                <div class="hover-on-img">
+                                    <i class="fas fa-plus tc-ff fs-64"></i>
+                                </div>
+                            </div>
+                            <div class="single-course-content px-30">
+                                <div class="course-heading pt-30">
+                                    <h3 class="fs-18 tc-00 f-700 ">Lifestyle Archives - The Times to Change Your Life
+                                    </h3>
+                                </div>
+                                <div class="course-para pt-20">
+                                    <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                        suscipit </p>
+                                </div>
+                                <div class="course-pricing pt-15">
+                                    <h2 class="tc-ab fs-24 f-700">$159.00</h2>
+                                </div>
+                                <div class="course-rating d-flex  align-items-center pt-10">
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="far fa-star tc-ed fs-13"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 padding-25">
+                        <!-- single course box 3 -->
+                        <div class="single-course-box w-100 pb-30">
+                            <div class="course-img fix position-relative">
+                                <img src="images/course-img3.png" class="img-fluid w-100" alt="">
+                                <div class="hover-on-img">
+                                    <i class="fas fa-plus tc-ff fs-64"></i>
+                                </div>
+                            </div>
+                            <div class="single-course-content px-30">
+                                <div class="course-heading pt-30">
+                                    <h3 class="fs-18 tc-00 f-700 ">Cambridge English Exam Preparation</h3>
+                                </div>
+                                <div class="course-para pt-20">
+                                    <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                        suscipit </p>
+                                </div>
+                                <div class="course-pricing pt-15">
+                                    <h2 class="tc-ab fs-24 f-700">$159.00</h2>
+                                </div>
+                                <div class="course-rating d-flex  align-items-center pt-10">
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="far fa-star tc-ed fs-13"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 padding-25">
+                        <!-- single course box 4 -->
+                        <div class="single-course-box w-100 pb-30">
+                            <div class="course-img fix position-relative">
+                                <img src="images/course-img4.png" class="img-fluid w-100" alt="">
+                                <div class="hover-on-img">
+                                    <i class="fas fa-plus tc-ff fs-64"></i>
+                                </div>
+                            </div>
+                            <div class="single-course-content px-30">
+                                <div class="course-heading pt-30">
+                                    <h3 class="fs-18 tc-00 f-700 ">Freelancing For Developers : A Complete Freelancing
+                                        Course.</h3>
+                                </div>
+                                <div class="course-para pt-20">
+                                    <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                        suscipit </p>
+                                </div>
+                                <div class="course-pricing pt-15">
+                                    <h2 class="tc-ab fs-24 f-700">$159.00</h2>
+                                </div>
+                                <div class="course-rating d-flex  align-items-center pt-10">
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="far fa-star tc-ed fs-13"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 padding-25">
+                        <!-- single course box 5 -->
+                        <div class="single-course-box w-100 pb-30">
+                            <div class="course-img fix position-relative">
+                                <img src="images/course-img5.png" class="img-fluid w-100" alt="">
+                                <div class="hover-on-img">
+                                    <i class="fas fa-plus tc-ff fs-64"></i>
+                                </div>
+                            </div>
+                            <div class="single-course-content px-30">
+                                <div class="course-heading pt-30">
+                                    <h3 class="fs-18 tc-00 f-700 ">Introduction to Fusion of Acoustic Guitar</h3>
+                                </div>
+                                <div class="course-para pt-20">
+                                    <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                        suscipit </p>
+                                </div>
+                                <div class="course-pricing pt-15">
+                                    <h2 class="tc-ab fs-24 f-700">$159.00</h2>
+                                </div>
+                                <div class="course-rating d-flex  align-items-center pt-10">
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="far fa-star tc-ed fs-13"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 padding-25">
+                        <!-- single course box 6 -->
+                        <div class="single-course-box w-100 pb-30">
+                            <div class="course-img fix position-relative">
+                                <img src="images/course-img6.png" class="img-fluid w-100" alt="">
+                                <div class="hover-on-img">
+                                    <i class="fas fa-plus tc-ff fs-64"></i>
+                                </div>
+                            </div>
+                            <div class="single-course-content px-30">
+                                <div class="course-heading pt-30">
+                                    <h3 class="fs-18 tc-00 f-700 ">Basic Mathematics - Inroduction to Geometry</h3>
+                                </div>
+                                <div class="course-para pt-20">
+                                    <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                        suscipit </p>
+                                </div>
+                                <div class="course-pricing pt-15">
+                                    <h2 class="tc-ab fs-24 f-700">$159.00</h2>
+                                </div>
+                                <div class="course-rating d-flex  align-items-center pt-10">
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="far fa-star tc-ed fs-13"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=======================================
+        top_courses area ending
+        ===========================================-->
+        <!--=======================================
+        discover-banner-courses area starting
+        ===========================================-->
+        <section class="banner-course-area bg-f7 pt-80 pb-100">
+            <div class="container">
+                <div class="section-heading pb-90">
+                    <div class="bold-heading pb-15">
+                        <h2 class="tc-00 f-700 fs-30 d-block">Discover Our Popular Course</h2>
+                    </div>
+                    <div class="sec-heading-para">
+                        <p class="tc-66 f-400 fs-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi biben dumvenenatis mollis.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <!-- single course with banner 1  -->
+                        <div class="single-course-banner">
+                            <div class="img-area position-relative">
+                                <img src="images/top-rated-bg.png" class="img-fluid w-100" alt="">
+                                <div class="banner-course-cont">
+                                    <h2 class="tc-ff fs-24 f-700">Top Rated</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <!-- single course with banner 2  -->
+                        <div class="single-course-banner">
+                            <div class="img-area position-relative">
+                                <img src="images/trending-bg.png" class="img-fluid w-100" alt="">
+                                <div class="banner-course-cont">
+                                    <h2 class="tc-ff fs-24 f-700">Trending</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mx-auto">
+                        <!-- single course with banner 3  -->
+                        <div class="single-course-banner">
+                            <div class="img-area position-relative">
+                                <img src="images/noteworthy-bg.png" class="img-fluid w-100" alt="">
+                                <div class="banner-course-cont">
+                                    <h2 class="tc-ff fs-24 f-700">New and Noteworthy</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=======================================
+        discover-banner-courses area ending
+        ===========================================-->
+        <!--=======================================
+        best_seller_courses area starting
+        ===========================================-->
+        <section class="top-course-area pt-100 pb-75">
+            <div class="container">
+                <div class="top-course-heading-area d-flex justify-content-between align-items-center pb-70">
+                    <div class="section-heading">
+                        <div class="bold-heading pb-15">
+                            <h2 class="tc-00 f-700 fs-30">Best Seller Course</h2>
+                        </div>
+                        <div class="sec-heading-para">
+                            <p class="tc-66 f-400 fs-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi biben dumvenenatis mollis.</p>
+                        </div>
+                    </div>
+                    <div class="top-course-heading-btn">
+                        <a href="#" class="fs-16 ffo f-600">view more</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 padding-25">
+                        <!-- single course box 7 -->
+                        <div class="single-course-box w-100 pb-30">
+                            <div class="course-img fix position-relative">
+                                <img src="images/course-img7.png" class="img-fluid w-100" alt="">
+                                <div class="hover-on-img">
+                                    <i class="fas fa-plus tc-ff fs-64"></i>
+                                </div>
+                            </div>
+                            <div class="single-course-content px-30">
+                                <div class="course-heading pt-30">
+                                    <h3 class="fs-18 tc-00 f-700 ">WordPress: Understanding Custom Plugins with PHP</h3>
+                                </div>
+                                <div class="course-para pt-20">
+                                    <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                        suscipit </p>
+                                </div>
+                                <div class="course-pricing pt-15">
+                                    <h2 class="tc-ab fs-24 f-700">$159.00</h2>
+                                </div>
+                                <div class="course-rating d-flex  align-items-center pt-10">
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="far fa-star tc-ed fs-13"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 padding-25">
+                        <!-- single course box 8 -->
+                        <div class="single-course-box w-100 pb-30">
+                            <div class="course-img fix position-relative">
+                                <img src="images/course-img8.png" class="img-fluid w-100" alt="">
+                                <div class="hover-on-img">
+                                    <i class="fas fa-plus tc-ff fs-64"></i>
+                                </div>
+                            </div>
+                            <div class="single-course-content px-30">
+                                <div class="course-heading pt-30">
+                                    <h3 class="fs-18 tc-00 f-700 ">The Complete Web Developer Course 2.0
+                                    </h3>
+                                </div>
+                                <div class="course-para pt-20">
+                                    <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                        suscipit </p>
+                                </div>
+                                <div class="course-pricing pt-15">
+                                    <h2 class="tc-ab fs-24 f-700">$159.00</h2>
+                                </div>
+                                <div class="course-rating d-flex  align-items-center pt-10">
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="far fa-star tc-ed fs-13"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 padding-25">
+                        <!-- single course box 9 -->
+                        <div class="single-course-box w-100 pb-30">
+                            <div class="course-img fix position-relative">
+                                <img src="images/course-img9.png" class="img-fluid w-100" alt="">
+                                <div class="hover-on-img">
+                                    <i class="fas fa-plus tc-ff fs-64"></i>
+                                </div>
+                            </div>
+                            <div class="single-course-content px-30">
+                                <div class="course-heading pt-30">
+                                    <h3 class="fs-18 tc-00 f-700 ">Introduction to the Design of Everyday Things</h3>
+                                </div>
+                                <div class="course-para pt-20">
+                                    <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                        suscipit </p>
+                                </div>
+                                <div class="course-pricing pt-15">
+                                    <h2 class="tc-ab fs-24 f-700">$159.00</h2>
+                                </div>
+                                <div class="course-rating d-flex  align-items-center pt-10">
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="far fa-star tc-ed fs-13"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 padding-25">
+                        <!-- single course box 10 -->
+                        <div class="single-course-box w-100 pb-30">
+                            <div class="course-img fix position-relative">
+                                <img src="images/course-img10.png" class="img-fluid w-100" alt="">
+                                <div class="hover-on-img">
+                                    <i class="fas fa-plus tc-ff fs-64"></i>
+                                </div>
+                            </div>
+                            <div class="single-course-content px-30">
+                                <div class="course-heading pt-30">
+                                    <h3 class="fs-18 tc-00 f-700 ">The Complete Ethical Hacking Course: A to Z</h3>
+                                </div>
+                                <div class="course-para pt-20">
+                                    <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                        suscipit </p>
+                                </div>
+                                <div class="course-pricing pt-15">
+                                    <h2 class="tc-ab fs-24 f-700">$159.00</h2>
+                                </div>
+                                <div class="course-rating d-flex  align-items-center pt-10">
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="far fa-star tc-ed fs-13"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 padding-25">
+                        <!-- single course box 11 -->
+                        <div class="single-course-box w-100 pb-30">
+                            <div class="course-img fix position-relative">
+                                <img src="images/course-img11.png" class="img-fluid w-100" alt="">
+                                <div class="hover-on-img">
+                                    <i class="fas fa-plus tc-ff fs-64"></i>
+                                </div>
+                            </div>
+                            <div class="single-course-content px-30">
+                                <div class="course-heading pt-30">
+                                    <h3 class="fs-18 tc-00 f-700 ">Introduction to networking for complete beginners</h3>
+                                </div>
+                                <div class="course-para pt-20">
+                                    <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                        suscipit </p>
+                                </div>
+                                <div class="course-pricing pt-15">
+                                    <h2 class="tc-ab fs-24 f-700">$159.00</h2>
+                                </div>
+                                <div class="course-rating d-flex  align-items-center pt-10">
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="far fa-star tc-ed fs-13"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 padding-25">
+                        <!-- single course box 12 -->
+                        <div class="single-course-box w-100 pb-30">
+                            <div class="course-img fix position-relative">
+                                <img src="images/course-img12.png" class="img-fluid w-100" alt="">
+                                <div class="hover-on-img">
+                                    <i class="fas fa-plus tc-ff fs-64"></i>
+                                </div>
+                            </div>
+                            <div class="single-course-content px-30">
+                                <div class="course-heading pt-30">
+                                    <h3 class="fs-18 tc-00 f-700 ">Digital Analytics for Marketing Professionals: Marketing (...)</h3>
+                                </div>
+                                <div class="course-para pt-20">
+                                    <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                        suscipit </p>
+                                </div>
+                                <div class="course-pricing pt-15">
+                                    <h2 class="tc-ab fs-24 f-700">$159.00</h2>
+                                </div>
+                                <div class="course-rating d-flex  align-items-center pt-10">
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="fas fa-star tc-ed fs-13"></i>
+                                    <i class="far fa-star tc-ed fs-13"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=======================================
+        best_seller_courses area ending
+        ===========================================-->
+        <!--=======================================
+        goal area starting
+        ===========================================-->
+        <section class="goal-area pt-110 pb-90">
+            <div class="container">
+                <div class="section-heading pb-85">
+                    <div class="bold-heading pb-15">
+                        <h2 class="tc-00 f-700 fs-30 d-block">Achieve Your Goals</h2>
+                    </div>
+                    <div class="sec-heading-para">
+                        <p class="tc-66 f-400 fs-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                            biben dumvenenatis mollis.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 padding-10">
+                        <!-- single goal box 1 -->
+                        <div class="single-goal-box text-center">
+                            <div class="goal-img">
+                                <img src="images/goal1.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="goal-cont pt-35">
+                                <h3 class="tc-00 fs-18 f-700">Expand Skill Development</h3>
+                                <p class="tc-4c f-400 fs-14 pt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac vulputate (...)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 padding-10">
+                        <!-- single goal box 2 -->
+                        <div class="single-goal-box text-center">
+                            <div class="goal-img">
+                                <img src="images/goal2.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="goal-cont pt-35">
+                                <h3 class="tc-00 fs-18 f-700">Self Learn</h3>
+                                <p class="tc-4c f-400 fs-14 pt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac vulputate (...)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 padding-10">
+                        <!-- single goal box 3 -->
+                        <div class="single-goal-box text-center">
+                            <div class="goal-img">
+                                <img src="images/goal3.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="goal-cont pt-35">
+                                <h3 class="tc-00 fs-18 f-700">Tech Jobs</h3>
+                                <p class="tc-4c f-400 fs-14 pt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac vulputate (...)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 padding-10">
+                        <!-- single goal box 4 -->
+                        <div class="single-goal-box text-center">
+                            <div class="goal-img">
+                                <img src="images/goal4.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="goal-cont pt-35">
+                                <h3 class="tc-00 fs-18 f-700">Unlock Your Potential</h3>
+                                <p class="tc-4c f-400 fs-14 pt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac vulputate (...)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 padding-10">
+                        <!-- single goal box 5 -->
+                        <div class="single-goal-box text-center">
+                            <div class="goal-img">
+                                <img src="images/goal5.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="goal-cont pt-35">
+                                <h3 class="tc-00 fs-18 f-700">Explore Your Passion</h3>
+                                <p class="tc-4c f-400 fs-14 pt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac vulputate (...)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 padding-10">
+                        <!-- single goal box 6 -->
+                        <div class="single-goal-box text-center">
+                            <div class="goal-img">
+                                <img src="images/goal6.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="goal-cont pt-35">
+                                <h3 class="tc-00 fs-18 f-700">Analytics Work</h3>
+                                <p class="tc-4c f-400 fs-14 pt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac vulputate (...)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=======================================
+        goal area ending
+        ===========================================-->
+        <!--=======================================
+        testimonial area starting
+        ===========================================-->
+        <section class="testimonial-area bg-f7 pt-95">
+            <div class="container">
+                <div class="section-heading pb-55">
+                    <div class="bold-heading pb-15">
+                        <h2 class="tc-00 f-700 fs-30 d-block">Client's Application</h2>
+                    </div>
+                    <div class="sec-heading-para">
+                        <p class="tc-66 f-400 fs-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                            biben dumvenenatis mollis.</p>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <!-- testimonial with sldier area  -->
+                    <div class="col-lg-6 border-in-right">
+                        <div class="test-slider-active owl-carousel pb-125">
+                            <!-- single test item 1 -->
+                            <div class="single-test">
+                                <div class="client-message position-relative pr-200 pb-45">
+                                    <p class="tc-4c fs-18 italic f-500 pl-35">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a
+                                        viverra nisl. Morbi in ornare nibh, sed efficitur neque. Proin efficitur odio
+                                        eget pulvinar hendrerit.</p>
+                                </div>
+                                <div class="client-deg d-flex align-items-center">
+                                    <div class="client-img pr-15">
+                                        <img src="images/test-img.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="client-info">
+                                        <h2 class="f-500 tc-00 fs-16">John Doe</h2>
+                                        <h4 class="tc-66 f-400 fs-13">Graphic Designer</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single test item 2  -->
+                            <div class="single-test">
+                                <div class="client-message position-relative pr-200 pb-45">
+                                    <p class="tc-4c fs-18 italic f-500 pl-35">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a
+                                        viverra nisl. Morbi in ornare nibh, sed efficitur neque. Proin efficitur odio
+                                        eget pulvinar hendrerit.</p>
+                                </div>
+                                <div class="client-deg d-flex align-items-center">
+                                    <div class="client-img pr-15">
+                                        <img src="images/test-img.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="client-info">
+                                        <h2 class="f-500 tc-00 fs-16">David Smith</h2>
+                                        <h4 class="tc-66 f-400 fs-13">Web Designer</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single test item 3  -->
+                            <div class="single-test">
+                                <div class="client-message position-relative pr-200 pb-45">
+                                    <p class="tc-4c fs-18 italic f-500 pl-35">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a
+                                        viverra nisl. Morbi in ornare nibh, sed efficitur neque. Proin efficitur odio
+                                        eget pulvinar hendrerit.</p>
+                                </div>
+                                <div class="client-deg d-flex align-items-center">
+                                    <div class="client-img pr-15">
+                                        <img src="images/test-img.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="client-info">
+                                        <h2 class="f-500 tc-00 fs-16">Micheal Jet</h2>
+                                        <h4 class="tc-66 f-400 fs-13">Digital Marketer</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- video area in testimonial  -->
+                    <div class="col-lg-6">
+                        <div class="video-area text-center">
+                            <div class="video-img position-relative">
+                                <img src="images/video-bg.png" class="img-fluid" alt="">
+                                <div class="play-video-btn">
+                                    <a href="https://youtu.be/IJsGepbdjWc" data-lity><i class="far fa-play-circle fs-70 tc-ff"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=======================================
+        testimonial area ending
+        ===========================================-->
+        <!--=======================================
+        brands area starting
+        ===========================================-->
+        <section class="brands-area bg-f7 pt-100 pb-75">
+            <div class="container">
+                <div class="bransds-section-heading pb-45">
+                    <div class="bold-heading text-center">
+                        <h2 class="tc-00 f-400 fs-30">LMSedu is trusted by 322,000+ students and companies worldwide
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="brands-active owl-carousel">
+                        <div class="single-brand">
+                            <img src="images/brand1.png" class="img-fluid w-auto mx-auto" alt="">
+                        </div>
+                        <div class="single-brand">
+                            <img src="images/brand2.png" class="img-fluid w-auto mx-auto" alt="">
+                        </div>
+                        <div class="single-brand">
+                            <img src="images/brand1.png" class="img-fluid w-auto mx-auto" alt="">
+                        </div>
+                        <div class="single-brand">
+                            <img src="images/brand2.png" class="img-fluid w-auto mx-auto" alt="">
+                        </div>
+                        <div class="single-brand">
+                            <img src="images/brand1.png" class="img-fluid w-auto mx-auto" alt="">
+                        </div>
+                        <div class="single-brand">
+                            <img src="images/brand2.png" class="img-fluid w-auto mx-auto" alt="">
+                        </div>
+                        <div class="single-brand">
+                            <img src="images/brand1.png" class="img-fluid w-auto mx-auto" alt="">
+                        </div>
+                        <div class="single-brand">
+                            <img src="images/brand2.png" class="img-fluid w-auto mx-auto" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=======================================
+        brands area ending
+        ===========================================-->
+        <!--=======================================
+        blogs area starting
+        ===========================================-->
+        <section class="blog-area pt-95 pb-85">
+            <div class="container">
+                <div class="section-heading pb-95">
+                    <div class="bold-heading pb-15">
+                        <h2 class="tc-00 f-700 fs-30">Our Blogs</h2>
+                    </div>
+                    <div class="sec-heading-para">
+                        <p class="tc-66 f-400 fs-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                            biben dumvenenatis mollis.</p>
+                    </div>
+                </div>
+                <div class="blogs-active owl-carousel">
+                    <div class="single-blogs mb-20">
+                        <!-- single blog no 1 -->
+                        <div class="course-img fix position-relative">
+                            <img src="images/blog1.png" class="img-fluid w-100" alt="">
+                            <div class="hover-on-img">
+                                <i class="fas fa-plus tc-ff fs-64"></i>
+                            </div>
+                        </div>
+                        <div class="single-course-content px-30 pb-20">
+                            <div class="blog-date-author d-flex justify-content-between align-items-center pt-30">
+                                <div class="blog-date d-flex align-items-center">
+                                    <i class="far fa-calendar-check tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">April 30,2022</h4>
+                                </div>
+                                <div class="author-name d-flex align-items-center">
+                                    <i class="fas fa-user tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">John Doe</h4>
+                                </div>
+                            </div>
+                            <div class="course-heading pt-30">
+                                <h3 class="fs-18 tc-00 f-700 ">Digital Analytics for Marketing Professionals: Marketing
+                                    (...)</h3>
+                            </div>
+                            <div class="course-para pt-25 pb-15">
+                                <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                    suscipit </p>
+                            </div>
+                            <div class="read-more-area d-flex justify-content-between align-items-center">
+                                <div class="read-more-txt w-30 position-relative">
+                                    <a href="index.html" class="tc-ab fs-16 f-700">Read More</a>
+                                </div>
+                                <div class="like-comnt-box d-flex align-items-center justify-content-between w-40">
+                                    <div class="like-box align-items-center d-flex">
+                                        <i class="fas fa-heart tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(51)</h4>
+                                    </div>
+                                    <div class="comment-box align-items-center d-flex">
+                                        <i class="far fa-comment-dots tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(79)</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-blogs mb-20">
+                        <!-- single blog no 2 -->
+                        <div class="course-img fix position-relative">
+                            <img src="images/blog2.png" class="img-fluid w-100" alt="">
+                            <div class="hover-on-img">
+                                <i class="fas fa-plus tc-ff fs-64"></i>
+                            </div>
+                        </div>
+                        <div class="single-course-content px-30 pb-20">
+                            <div class="blog-date-author d-flex justify-content-between align-items-center pt-30">
+                                <div class="blog-date d-flex align-items-center">
+                                    <i class="far fa-calendar-check tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">April 30,2022</h4>
+                                </div>
+                                <div class="author-name d-flex align-items-center">
+                                    <i class="fas fa-user tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">John Doe</h4>
+                                </div>
+                            </div>
+                            <div class="course-heading pt-30">
+                                <h3 class="fs-18 tc-00 f-700 ">Digital Analytics for Marketing Professionals: Marketing
+                                    (...)</h3>
+                            </div>
+                            <div class="course-para pt-25 pb-15">
+                                <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                    suscipit </p>
+                            </div>
+                            <div class="read-more-area d-flex justify-content-between align-items-center">
+                                <div class="read-more-txt w-30 position-relative">
+                                    <a href="index.html" class="tc-ab fs-16 f-700">Read More</a>
+                                </div>
+                                <div class="like-comnt-box d-flex align-items-center justify-content-between w-40">
+                                    <div class="like-box align-items-center d-flex">
+                                        <i class="fas fa-heart tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(51)</h4>
+                                    </div>
+                                    <div class="comment-box align-items-center d-flex">
+                                        <i class="far fa-comment-dots tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(79)</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-blogs mb-20">
+                        <!-- single blog no 3 -->
+                        <div class="course-img fix position-relative">
+                            <img src="images/blog3.png" class="img-fluid w-100" alt="">
+                            <div class="hover-on-img">
+                                <i class="fas fa-plus tc-ff fs-64"></i>
+                            </div>
+                        </div>
+                        <div class="single-course-content px-30 pb-20">
+                            <div class="blog-date-author d-flex justify-content-between align-items-center pt-30">
+                                <div class="blog-date d-flex align-items-center">
+                                    <i class="far fa-calendar-check tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">April 30,2022</h4>
+                                </div>
+                                <div class="author-name d-flex align-items-center">
+                                    <i class="fas fa-user tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">John Doe</h4>
+                                </div>
+                            </div>
+                            <div class="course-heading pt-30">
+                                <h3 class="fs-18 tc-00 f-700 ">Digital Analytics for Marketing Professionals: Marketing
+                                    (...)</h3>
+                            </div>
+                            <div class="course-para pt-25 pb-15">
+                                <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                    suscipit </p>
+                            </div>
+                            <div class="read-more-area d-flex justify-content-between align-items-center">
+                                <div class="read-more-txt w-30 position-relative">
+                                    <a href="index.html" class="tc-ab fs-16 f-700">Read More</a>
+                                </div>
+                                <div class="like-comnt-box d-flex align-items-center justify-content-between w-40">
+                                    <div class="like-box align-items-center d-flex">
+                                        <i class="fas fa-heart tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(51)</h4>
+                                    </div>
+                                    <div class="comment-box align-items-center d-flex">
+                                        <i class="far fa-comment-dots tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(79)</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-blogs mb-20">
+                        <!-- single blog no 1 -->
+                        <div class="course-img fix position-relative">
+                            <img src="images/blog1.png" class="img-fluid w-100" alt="">
+                            <div class="hover-on-img">
+                                <i class="fas fa-plus tc-ff fs-64"></i>
+                            </div>
+                        </div>
+                        <div class="single-course-content px-30 pb-20">
+                            <div class="blog-date-author d-flex justify-content-between align-items-center pt-30">
+                                <div class="blog-date d-flex align-items-center">
+                                    <i class="far fa-calendar-check tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">April 30,2022</h4>
+                                </div>
+                                <div class="author-name d-flex align-items-center">
+                                    <i class="fas fa-user tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">John Doe</h4>
+                                </div>
+                            </div>
+                            <div class="course-heading pt-30">
+                                <h3 class="fs-18 tc-00 f-700 ">Digital Analytics for Marketing Professionals: Marketing
+                                    (...)</h3>
+                            </div>
+                            <div class="course-para pt-25 pb-15">
+                                <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                    suscipit </p>
+                            </div>
+                            <div class="read-more-area d-flex justify-content-between align-items-center">
+                                <div class="read-more-txt w-30 position-relative">
+                                    <a href="index.html" class="tc-ab fs-16 f-700">Read More</a>
+                                </div>
+                                <div class="like-comnt-box d-flex align-items-center justify-content-between w-40">
+                                    <div class="like-box align-items-center d-flex">
+                                        <i class="fas fa-heart tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(51)</h4>
+                                    </div>
+                                    <div class="comment-box align-items-center d-flex">
+                                        <i class="far fa-comment-dots tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(79)</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-blogs mb-20">
+                        <!-- single blog no 2 -->
+                        <div class="course-img fix position-relative">
+                            <img src="images/blog2.png" class="img-fluid w-100" alt="">
+                            <div class="hover-on-img">
+                                <i class="fas fa-plus tc-ff fs-64"></i>
+                            </div>
+                        </div>
+                        <div class="single-course-content px-30 pb-20">
+                            <div class="blog-date-author d-flex justify-content-between align-items-center pt-30">
+                                <div class="blog-date d-flex align-items-center">
+                                    <i class="far fa-calendar-check tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">April 30,2022</h4>
+                                </div>
+                                <div class="author-name d-flex align-items-center">
+                                    <i class="fas fa-user tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">John Doe</h4>
+                                </div>
+                            </div>
+                            <div class="course-heading pt-30">
+                                <h3 class="fs-18 tc-00 f-700 ">Digital Analytics for Marketing Professionals: Marketing
+                                    (...)</h3>
+                            </div>
+                            <div class="course-para pt-25 pb-15">
+                                <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                    suscipit </p>
+                            </div>
+                            <div class="read-more-area d-flex justify-content-between align-items-center">
+                                <div class="read-more-txt w-30 position-relative">
+                                    <a href="index.html" class="tc-ab fs-16 f-700">Read More</a>
+                                </div>
+                                <div class="like-comnt-box d-flex align-items-center justify-content-between w-40">
+                                    <div class="like-box align-items-center d-flex">
+                                        <i class="fas fa-heart tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(51)</h4>
+                                    </div>
+                                    <div class="comment-box align-items-center d-flex">
+                                        <i class="far fa-comment-dots tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(79)</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-blogs mb-20">
+                        <!-- single blog no 3 -->
+                        <div class="course-img fix position-relative">
+                            <img src="images/blog3.png" class="img-fluid w-100" alt="">
+                            <div class="hover-on-img">
+                                <i class="fas fa-plus tc-ff fs-64"></i>
+                            </div>
+                        </div>
+                        <div class="single-course-content px-30 pb-20">
+                            <div class="blog-date-author d-flex justify-content-between align-items-center pt-30">
+                                <div class="blog-date d-flex align-items-center">
+                                    <i class="far fa-calendar-check tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">April 30,2022</h4>
+                                </div>
+                                <div class="author-name d-flex align-items-center">
+                                    <i class="fas fa-user tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">John Doe</h4>
+                                </div>
+                            </div>
+                            <div class="course-heading pt-30">
+                                <h3 class="fs-18 tc-00 f-700 ">Digital Analytics for Marketing Professionals: Marketing
+                                    (...)</h3>
+                            </div>
+                            <div class="course-para pt-25 pb-15">
+                                <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                    suscipit </p>
+                            </div>
+                            <div class="read-more-area d-flex justify-content-between align-items-center">
+                                <div class="read-more-txt w-30 position-relative">
+                                    <a href="index.html" class="tc-ab fs-16 f-700">Read More</a>
+                                </div>
+                                <div class="like-comnt-box d-flex align-items-center justify-content-between w-40">
+                                    <div class="like-box align-items-center d-flex">
+                                        <i class="fas fa-heart tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(51)</h4>
+                                    </div>
+                                    <div class="comment-box align-items-center d-flex">
+                                        <i class="far fa-comment-dots tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(79)</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-blogs mb-20">
+                        <!-- single blog no 1 -->
+                        <div class="course-img fix position-relative">
+                            <img src="images/blog1.png" class="img-fluid w-100" alt="">
+                            <div class="hover-on-img">
+                                <i class="fas fa-plus tc-ff fs-64"></i>
+                            </div>
+                        </div>
+                        <div class="single-course-content px-30 pb-20">
+                            <div class="blog-date-author d-flex justify-content-between align-items-center pt-30">
+                                <div class="blog-date d-flex align-items-center">
+                                    <i class="far fa-calendar-check tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">April 30,2022</h4>
+                                </div>
+                                <div class="author-name d-flex align-items-center">
+                                    <i class="fas fa-user tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">John Doe</h4>
+                                </div>
+                            </div>
+                            <div class="course-heading pt-30">
+                                <h3 class="fs-18 tc-00 f-700 ">Digital Analytics for Marketing Professionals: Marketing
+                                    (...)</h3>
+                            </div>
+                            <div class="course-para pt-25 pb-15">
+                                <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                    suscipit </p>
+                            </div>
+                            <div class="read-more-area d-flex justify-content-between align-items-center">
+                                <div class="read-more-txt w-30 position-relative">
+                                    <a href="index.html" class="tc-ab fs-16 f-700">Read More</a>
+                                </div>
+                                <div class="like-comnt-box d-flex align-items-center justify-content-between w-40">
+                                    <div class="like-box align-items-center d-flex">
+                                        <i class="fas fa-heart tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(51)</h4>
+                                    </div>
+                                    <div class="comment-box align-items-center d-flex">
+                                        <i class="far fa-comment-dots tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(79)</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-blogs mb-20">
+                        <!-- single blog no 2 -->
+                        <div class="course-img fix position-relative">
+                            <img src="images/blog2.png" class="img-fluid w-100" alt="">
+                            <div class="hover-on-img">
+                                <i class="fas fa-plus tc-ff fs-64"></i>
+                            </div>
+                        </div>
+                        <div class="single-course-content px-30 pb-20">
+                            <div class="blog-date-author d-flex justify-content-between align-items-center pt-30">
+                                <div class="blog-date d-flex align-items-center">
+                                    <i class="far fa-calendar-check tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">April 30,2022</h4>
+                                </div>
+                                <div class="author-name d-flex align-items-center">
+                                    <i class="fas fa-user tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">John Doe</h4>
+                                </div>
+                            </div>
+                            <div class="course-heading pt-30">
+                                <h3 class="fs-18 tc-00 f-700 ">Digital Analytics for Marketing Professionals: Marketing
+                                    (...)</h3>
+                            </div>
+                            <div class="course-para pt-25 pb-15">
+                                <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                    suscipit </p>
+                            </div>
+                            <div class="read-more-area d-flex justify-content-between align-items-center">
+                                <div class="read-more-txt w-30 position-relative">
+                                    <a href="index.html" class="tc-ab fs-16 f-700">Read More</a>
+                                </div>
+                                <div class="like-comnt-box d-flex align-items-center justify-content-between w-40">
+                                    <div class="like-box align-items-center d-flex">
+                                        <i class="fas fa-heart tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(51)</h4>
+                                    </div>
+                                    <div class="comment-box align-items-center d-flex">
+                                        <i class="far fa-comment-dots tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(79)</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-blogs mb-20">
+                        <!-- single blog no 3 -->
+                        <div class="course-img fix position-relative">
+                            <img src="images/blog3.png" class="img-fluid w-100" alt="">
+                            <div class="hover-on-img">
+                                <i class="fas fa-plus tc-ff fs-64"></i>
+                            </div>
+                        </div>
+                        <div class="single-course-content px-30 pb-20">
+                            <div class="blog-date-author d-flex justify-content-between align-items-center pt-30">
+                                <div class="blog-date d-flex align-items-center">
+                                    <i class="far fa-calendar-check tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">April 30,2022</h4>
+                                </div>
+                                <div class="author-name d-flex align-items-center">
+                                    <i class="fas fa-user tc-66 fs-20 mr-08"></i>
+                                    <h4 class="tc-66 fs-14">John Doe</h4>
+                                </div>
+                            </div>
+                            <div class="course-heading pt-30">
+                                <h3 class="fs-18 tc-00 f-700 ">Digital Analytics for Marketing Professionals: Marketing
+                                    (...)</h3>
+                            </div>
+                            <div class="course-para pt-25 pb-15">
+                                <p class="tc-4c fs-14 f-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel,
+                                    suscipit </p>
+                            </div>
+                            <div class="read-more-area d-flex justify-content-between align-items-center">
+                                <div class="read-more-txt w-30 position-relative">
+                                    <a href="index.html" class="tc-ab fs-16 f-700">Read More</a>
+                                </div>
+                                <div class="like-comnt-box d-flex align-items-center justify-content-between w-40">
+                                    <div class="like-box align-items-center d-flex">
+                                        <i class="fas fa-heart tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(51)</h4>
+                                    </div>
+                                    <div class="comment-box align-items-center d-flex">
+                                        <i class="far fa-comment-dots tc-66 fs-20 mr-08"></i>
+                                        <h4 class="tc-66 fs-14">(79)</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=======================================
+        blogs area ending
+        ===========================================-->
+        <!--=======================================
+        newsletter area starting
+        ===========================================-->
+        <section class="newsletter-area">
+            <div class="container">
+                <div class="row">
+                    <div class="newsletter-heading">
+                        <h2 class="fs-36 f-500 tc-33">Become A Instructor</h2>
+                    </div>
+                    <div class="join-form mx-auto pt-50">
+                        <form action="">
+                            <input type="text" placeholder="Become A Instructor">
+                            <input type="submit" value="JOIN">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=======================================
+        newsletter area ending
+        ===========================================-->
+    </main>
+    <!--=======================================
+    footer area starting
+    ===========================================-->
+    <footer class="bg-29 py-100">
+        <div class="footer-area pb-55">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-6">
+                        <!-- address and telephone area  -->
+                        <div class="add-tel-area">
+                            <div class="address-area pb-15">
+                                <h3 class="tc-ff fs-16 f-600">Address:</h3>
+                                <p class="fs-14 tc-ff f-400">73724 Route 30</p>
+                                <p class="fs-14 tc-ff f-400">South Richmond Hill, NY 11419</p>
+                            </div>
+                            <div class="telelphone-area">
+                                <h3 class="tc-ff fs-16 f-600">Tel: (603)-677-3400</h3>
+                                <p class="fs-14 tc-ff f-400">Email: info@yourdomain.com</p>
+                                <p class="fs-14 tc-ff f-400">Web: yourdomain.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-6">
+                        <!-- help center area  -->
+                        <div class="menu-heading pb-10">
+                            <h3 class="tc-ff fs-16 f-600">Help Center:</h3>
+                        </div>
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#" class="fs-14 tc-ff f-400">Documentations</a></li>
+                                <li><a href="#" class="fs-14 tc-ff f-400">Tutorials</a></li>
+                                <li><a href="#" class="fs-14 tc-ff f-400">Term of Use</a></li>
+                                <li><a href="#" class="fs-14 tc-ff f-400">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-6">
+                        <!-- footer about us area  -->
+                        <div class="menu-heading pb-10">
+                            <h3 class="tc-ff fs-16 f-600">About Us:</h3>
+                        </div>
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#" class="fs-14 tc-ff f-400">Our Team</a></li>
+                                <li><a href="#" class="fs-14 tc-ff f-400">Company</a></li>
+                                <li><a href="#" class="fs-14 tc-ff f-400">Jobs</a></li>
+                                <li><a href="#" class="fs-14 tc-ff f-400">News Letter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-6">
+                        <!-- footer tools area  -->
+                        <div class="menu-heading pb-10">
+                            <h3 class="tc-ff fs-16 f-600">Tools:</h3>
+                        </div>
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#" class="fs-14 tc-ff f-400">Create Acccount</a></li>
+                                <li><a href="#" class="fs-14 tc-ff f-400">Log In</a></li>
+                                <li><a href="#" class="fs-14 tc-ff f-400">Services</a></li>
+                                <li><a href="#" class="fs-14 tc-ff f-400">Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-6">
+                        <!-- footer get in touch area  -->
+                        <div class="menu-heading pb-10">
+                            <h3 class="tc-ff fs-16 f-600">Get in Touch:</h3>
+                        </div>
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#" class="fs-14 tc-ff f-400">Contact Us</a></li>
+                                <li><a href="#" class="fs-14 tc-ff f-400">Join Us</a></li>
+                                <li><a href="#" class="fs-14 tc-ff f-400">Invite Us</a></li>
+                                <li><a href="#" class="fs-14 tc-ff f-400">Donate</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container align-items-center d-flex justify-content-between pt-25">
+                <div class="social-links d-none d-sm-block">
+                    <ul class="d-flex align-items-center">
+                        <li><a href="#" class="fs-16 tc-ff f-500">Facebook.</a></li>
+                        <li><a href="#" class="fs-16 tc-ff f-500">Twitter.</a></li>
+                        <li><a href="#" class="fs-16 tc-ff f-500">Instagram.</a></li>
+                        <li><a href="#" class="fs-16 tc-ff f-500">Linkedin.</a></li>
+                        <li><a href="#" class="fs-16 tc-ff f-500">Google Plus.</a></li>
+                    </ul>
+                </div>
+                <div class="social-media-for-mobile d-sm-none d-block pb-20">
+                    <ul class="d-flex justify-content-center align-items-center">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+                </div>
+                <div class="copy-text">
+                    <h2 class="fs-14 tc-ff f-500">Copyright © 2017 LMS EDUCATION. All Rights Reserved</h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--=======================================
+    footer area ending
+    ===========================================-->
+    <!--=======================================
+    jquery plugin js file area  
+    ===========================================-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/sitcky-header.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/sitcky-header.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/lity.min.js"></script>
+    <script src="js/jquery.mobile-offcanvas-menu.js"></script>
+    <script src="js/active.js"></script>
+</body>
+
+</html>
